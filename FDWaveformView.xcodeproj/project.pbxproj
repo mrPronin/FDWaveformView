@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EB96A1B19AA398700808C4B /* Sample01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3EB96A1A19AA398700808C4B /* Sample01.wav */; };
+		3EB96A1D19AA49A100808C4B /* Tool_Jambi.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3EB96A1C19AA49A100808C4B /* Tool_Jambi.caf */; };
 		D95AED6C191594D100A257D4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FE1190180256840000F135 /* XCTest.framework */; };
 		D95AED6D191594D100A257D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FE116E180256830000F135 /* Foundation.framework */; };
 		D95AED6E191594D100A257D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9FE1172180256830000F135 /* UIKit.framework */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3EB96A1A19AA398700808C4B /* Sample01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Sample01.wav; sourceTree = "<group>"; };
+		3EB96A1C19AA49A100808C4B /* Tool_Jambi.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tool_Jambi.caf; sourceTree = "<group>"; };
 		D95AED6B191594D100A257D4 /* FDWaveformViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDWaveformViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95AED71191594D100A257D4 /* FDWaveformView Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FDWaveformView Tests-Info.plist"; sourceTree = "<group>"; };
 		D95AED73191594D100A257D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -151,6 +155,8 @@
 		D9FE1174180256830000F135 /* FDWaveformView */ = {
 			isa = PBXGroup;
 			children = (
+				3EB96A1C19AA49A100808C4B /* Tool_Jambi.caf */,
+				3EB96A1A19AA398700808C4B /* Sample01.wav */,
 				D9FE11A6180256940000F135 /* FDWaveformView.h */,
 				D9FE11A7180256940000F135 /* FDWaveformView.m */,
 				D9FE117D180256830000F135 /* AppDelegate.h */,
@@ -266,8 +272,10 @@
 				D9FE11AE18025B1B0000F135 /* Submarine.aiff in Resources */,
 				D9FE118A180256830000F135 /* Images.xcassets in Resources */,
 				D9C831CC19A8FFC3006D6AD2 /* TchaikovskyExample2.mp3 in Resources */,
+				3EB96A1B19AA398700808C4B /* Sample01.wav in Resources */,
 				D9FE1182180256830000F135 /* Main.storyboard in Resources */,
 				D9C831CA19A8FFC3006D6AD2 /* TchaikovskyExample2.ogg in Resources */,
+				3EB96A1D19AA49A100808C4B /* Tool_Jambi.caf in Resources */,
 				D9FE1179180256830000F135 /* InfoPlist.strings in Resources */,
 				D9C831CB19A8FFC3006D6AD2 /* TchaikovskyExample2.m4a in Resources */,
 			);

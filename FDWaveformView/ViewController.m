@@ -24,7 +24,9 @@
 {
     [super viewDidLoad];
     NSBundle *thisBundle = [NSBundle bundleForClass:[self class]];
-    NSString *filePath = [thisBundle pathForResource:@"Submarine" ofType:@"aiff"];
+    //NSString *filePath = [thisBundle pathForResource:@"Submarine" ofType:@"aiff"];
+    //NSString *filePath = [thisBundle pathForResource:@"Sample01" ofType:@"wav"];
+    NSString *filePath = [thisBundle pathForResource:@"Tool_Jambi" ofType:@"caf"];
     NSURL *url = [NSURL fileURLWithPath:filePath];
     
     // We wish to animate the waveformv iew in when it is rendered
